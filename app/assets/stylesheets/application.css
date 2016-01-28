@@ -63,6 +63,12 @@ h3 {
 	margin-bottom:20px;
 }
 
+a {
+	text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
 a, a:visited, a:link {
 	color:#000;
 	-webkit-transition: all 0.5s;
@@ -128,13 +134,50 @@ a:hover {
     display: inline-block;
 }
 
+/*Social Links*/
+
+.social-wrapper {
+	text-align: center;
+}
+
+.social-inner {
+	margin: 20px auto;
+}
+
 /*Footer Styles*/
 
+footer {
+	background-color: #fff;
+	height: 100%;
+	color: #000;
+}
+
 #main-footer p {
+	color: #000;
 	position: relative;
 	float: center;
 	text-align: center;
 	text-transform: uppercase;	
 }
 
+footer ul {
+	display: inline-block;
+	margin: 0 auto;
+    text-align: center;
+    background: #ffffff;
+    line-height: 42px;
+    width: 42px !important;
+    height: 42px !important;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
 
+footer ul li a i {
+    line-height: 42px !important;
+
+}
+footer ul li a {
+    color: #000;
+    width: 42px !important;
+    height: 42px !important;
+   }
