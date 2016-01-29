@@ -24,27 +24,86 @@
 <body id="home">
 <!-- Landing Page Section -->
 <section class="home-wrapper">
-<div class="container">
-<nav class="navbar row">
-<div class="xs-sm-6 nav-logo">
-	 <img class="nav-logo" src="<%= asset_path 'unicorn.png' %>" alt="Logo">
-</div>
-</nav>
+<!-- Navbar -->
+<div id="main-nav" class="navbar navbar-fixed-top">
+        <div class="container-fluid">
 
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+
+                <!-- Logo phone -->
+                <a class="navbar-brand visible-xs scrollto" href="#home">Rd</a>
+
+            </div>            
+<a href="#home" class="navbar-brand"><img class="nav-logo" src="<%= asset_path 'unicorn.png' %>" alt="Logo"><h1>M<sub>R</sub>T</h1></a>
+        </div>
+            <div id="site-nav" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="">
+                        <a href="#services" class="scrollto">What I Do</a>
+                    </li>
+                    <li class="">
+                        <a href="#about" class="scrollto">About Me</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#portfolio" class="scrollto">My Works</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="scrollto">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div><!-- Navbar End -->
+<!-- Welcome Jumborton h1 -->
+<div class="jumbotron">
+<div class="container">
+<div class="row">
+<div class="ol-lg-4">
+<h1 id="startchange" style="font-size: 63px;">Hey, I'm Matt and this is my personal site.</h1>
+<h2>Part UX Designer | Part Software Engineer</h2>
+<h3>London</h3>
 </div>
-	<div class="container">
-	<h1>Welcome to my site.</h1>
 </div>
-</section><!-- Landing Section End -->
+</div>
+</div>
+</section><!-- Home-wrapper Section End -->
+
+
 
 <!-- About Section -->
-<section>
-<div class="container-fluid">
+<section id="about">
+<div class="container">
+<h1>About Me.</h1>	
 <div class="row">
-<h1>About Me</h1>	
+<div class="col-xs-12 col-sm-12">
+                    <img class="img-circle" src="<%= asset_path 'Prof.jpg' %>" alt="#">
+         
+<h3>Matthew Raft | Part Developer | Part UX Designer</h3>
+<h4>About Matt</h4>
+<br>
+<p>Matthew is an Front-End software engineer with a passion for pixelation harmony. With a passion for innovation and creative solutions, Matt is able to creative amazing user experiences. 
+<br>
+Matthew is a unique coder. Mindful, passionate and obcessed with beautiful deign. Matt lives for clean, user-centric and scalable code.
+<br>
+2016 will be a year of education for Matthew. Beginning in May 2016 with a 16 week JavaScript bootcamp with Founders & Coders - 'The most comprehensive training in JavaScript web development in the UK." - followed by a Msc in Human-computer interaction and Ergonomics at UCL beginning September 2016. 
+</p>
+<h4>Availability</h4>
+<br>
+<p>Matthew is available for short-term and long-term contracts, freelance engagements.</p>
+<br>
 </div>
 </div>
-</section>
+</div>
+</section><!-- End of About Section -->
+
+
+
+
 <div class="container-fluid">
 <div class="social-wrapper">
 <div class="social-inner">

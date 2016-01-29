@@ -48,6 +48,7 @@ h1 {
 	font-weight:700;
 	font-size:2.5em;
 	margin-bottom:0.2em;
+	padding-bottom: 30px;
 }
 
 h2 {
@@ -85,9 +86,6 @@ a:hover {
 
 /*Home*/
 
-#home {
-
-}
 
 .home-wrapper {
 	background-size: auto;
@@ -101,38 +99,137 @@ a:hover {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#1c78c1', GradientType=1 );
 	}
 
-#home h1 {
-		color #000;
-		text-align: center;
-	}	
+/*Welcome Header */
+.home-wrapper.container {
+	margin-top: 400px;
+}
 
-.home-wrapper .header {
-	width: 100%;
-	position: relative;
+.jumbotron {
+	background-color: transparent;
+	color: #000;
 	text-align: center;
+	position: relative;
+	top: 180px;
+	left: 100px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.jumbotron p {
+    font-size: 32px;
+    font-weight: 400;
+    opacity: 0;
 }
 
 /*Navbar*/
-.main-nav {
+#main-nav {
+	background: transparent;
 	margin: 0;
 	padding-bottom: 50px auto;
 	width: 100%;
 	height: auto;
 }
+#main-nav h1 {
+	letter-spacing: 0.1em;
+}
+#main-nav h1,img {
+	display: inline-block;
+	margin-top: -10px;
+}
+
+#main-nav img {
+	margin-top: -10px;
+	margin-right: 10px;
+}
+
+.navbar-brand {
+	margin: 0 auto;
+    margin-left: 30px;
+	font-weight: 700;
+}
 
 .navbar {
+	margin: 0;
+    border-radius: 0;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    display: block;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-nav {
+    float: none;
+    text-align: center;
 }
 
-.nav-logo {
+#main-nav ul {
+    float: right;
+    margin: 0 20px 0 20px;
+
+}
+/*
+ul:nth-child(4) {
+	margin-right: 50px;
+}*/
+
+#main-nav .container-fluid {
+	padding: 10px auto;
+}
+
+#main-nav .navbar-toggle {
+    color: #777;
+    border-color: #777;
+    }
+
+#main-nav .navbar-toggle {
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 0;
+}
+
+#main-nav .nav-logo {
+    opacity: 1;
+    vertical-align: middle;
     height: 46px;
     width: 46px;
     display: inline-block;
 }
+
+
+/*About Me*/
+
+#about {
+	padding-top: 80px;
+}
+
+#about.container {
+	text-align: left;
+
+
+}
+
+#about.container,h3,h4,p {
+	text-align: center;
+}
+
+#about h4 {
+	text-decoration: underline;
+}
+
+#about img {
+	float: right;
+	margin-left: 50px;
+}
+
+#about img {
+	width: 500px;
+	height: 400px;
+}
+
+
 
 /*Social Links*/
 
