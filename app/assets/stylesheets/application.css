@@ -27,8 +27,8 @@ body {
 }
 
 section {
-	min-height: 650px; 
 	border: 0;
+	min-height: 650px;
     font-size: 16px;
     font: inherit;
     vertical-align: baseline;
@@ -45,6 +45,7 @@ p {
 }
 
 h1 {
+	text-align: center;
 	font-weight:700;
 	font-size:2.5em;
 	margin-bottom:0.2em;
@@ -71,24 +72,22 @@ a {
 }
 
 a, a:visited, a:link {
-	color:#000;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-	text-decoration: underline 2px solid;
+	color: #000;
+	text-decoration: underline solid !important;
 }
 
 a:hover {
-	opacity:0.5;
-	text-decoration: underline;
+	opacity: 0.5;
+	text-decoration: underline !important;
 }
-
 
 /*Home*/
 
 
 .home-wrapper {
 	background-size: auto;
+    height: 765px;
+    overflow: hidden;
 	background: #ffffff;
 	background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 0%, #4892cc 63%, #1c78c1 79%);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffffff), color-stop(0%, #f6f6f6), color-stop(63%, #4892cc), color-stop(79%, #1c78c1));
@@ -100,6 +99,7 @@ a:hover {
 	}
 
 /*Welcome Header */
+
 .home-wrapper.container {
 	margin-top: 400px;
 }
@@ -109,7 +109,7 @@ a:hover {
 	color: #000;
 	text-align: center;
 	position: relative;
-	top: 180px;
+	top: 200px;
 	left: 100px;
     overflow: hidden;
     overflow-x: hidden;
@@ -123,19 +123,21 @@ a:hover {
 }
 
 /*Navbar*/
+
 #main-nav {
 	background: transparent;
 	margin: 0;
 	padding-bottom: 50px auto;
 	width: 100%;
 	height: auto;
+	padding-right: 50px;
 }
 #main-nav h1 {
 	letter-spacing: 0.1em;
 }
 #main-nav h1,img {
 	display: inline-block;
-	margin-top: -10px;
+	margin-top: 10px;
 }
 
 #main-nav img {
@@ -159,8 +161,8 @@ a:hover {
 }
 .navbar-fixed-top {
     top: 0;
-    border-width: 0 0 1px;
 }
+
 .navbar-nav {
     float: none;
     text-align: center;
@@ -169,25 +171,10 @@ a:hover {
 #main-nav ul {
     float: right;
     margin: 0 20px 0 20px;
-
 }
-/*
-ul:nth-child(4) {
-	margin-right: 50px;
-}*/
 
 #main-nav .container-fluid {
 	padding: 10px auto;
-}
-
-#main-nav .navbar-toggle {
-    color: #777;
-    border-color: #777;
-    }
-
-#main-nav .navbar-toggle {
-    border: 1px solid rgba(255,255,255,0.5);
-    border-radius: 0;
 }
 
 #main-nav .nav-logo {
@@ -198,24 +185,26 @@ ul:nth-child(4) {
     display: inline-block;
 }
 
+#main-nav li a:hover, li a:focus {
+    background-color: transparent;
+}	
 
 /*About Me*/
 
 #about {
 	padding-top: 80px;
+	overflow: hidden;
 }
 
 #about.container {
 	text-align: left;
-
-
 }
 
 #about.container,h3,h4,p {
 	text-align: center;
 }
 
-#about h4 {
+#about h3 {
 	text-decoration: underline;
 }
 
@@ -228,7 +217,6 @@ ul:nth-child(4) {
 	width: 500px;
 	height: 400px;
 }
-
 
 
 /*Social Links*/
