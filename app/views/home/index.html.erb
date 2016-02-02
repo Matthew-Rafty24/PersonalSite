@@ -25,32 +25,31 @@
 <!-- Landing Page Section -->
 <section class="home-wrapper">
 <!-- Navbar -->
-<div id="main-nav" class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </button>
-
-                <!-- Logo phone -->
-                <a class="navbar-brand visible-xs scrollto" href="#home">Rd</a>
-
-            </div>            
-<a href="#" class="navbar-brand"><img class="nav-logo" src="<%= asset_path 'unicorn.png' %>" alt="Logo"><h1>M<sub>R</sub>T</h1></a>
+<div id="main-nav">
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" href="#home">
+        <img class="nav-logo" alt="Brand" src="<%= asset_path 'unicorn.png' %>"><h1>M<sub>R</sub>T</h1>
+        </a>
         </div>
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#" class="scrollto">About Me</a>
                     </li>
                     <li>
-                        <a href="#">What I Know<sub style="color: #fff;"><em>Under Construction</em></sub></a>
+                        <a href="#">What I Know</a><sub style="color: #fff;"><em>Under Construction</em></sub>
                     </li>
                     
                     <li>
-                        <a href="#">My Work<sub style="color: #fff;"><em>Under Construction</em></sub></a>
+                        <a href="#">My Work</a><sub style="color: #fff;"><em>Under Construction</em></sub>
                     </li>
                     <li>
                         <a href="#">My CV</a>
@@ -60,14 +59,15 @@
                     </li>
                 </ul>
             </div>
-
+            </div>
+            </nav>
         </div><!-- Navbar End -->
+
 <!-- Welcome Jumborton h1 -->
-<div class="jumbotron">
 <div class="container">
 <div class="row">
-<div class="col-lg-9">
-<h1 id="startchange" style="font-size: 63px;">Hey, I'm Matt and this is my personal site.</h1>
+<div class="jumbotron">
+<h1 style="font-size: 63px;">Hey, I'm Matt and this is my personal site.</h1>
 <h2>Part UX Designer | Part Software Engineer</h2>
 <h3>London</h3>
 </div>
