@@ -1,67 +1,6 @@
-<!DOCTYPE html>
-<html>
-<!-- Head -->
-<head>
 
-<title>Matthew Raft - Part Developer | Part UX Designer</title>
-
-<!-- Meta tags -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <!-- CSS -->
-    <link rel="stylesheets" href="assets/stylesheets/application.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-<!-- Font Awesome CSS -->
-<link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
-<!-- Bootstrap CSS -->
-    <link href="assets/stylesheets/bootstrap.css" rel="stylesheet">
-</head>
-
-<body id="home">
 <!-- Landing Page Section -->
 <section class="home-wrapper">
-<!-- Navbar -->
-<div id="main-nav">
-<nav class="navbar navbar-default navbar-fixed-top">
-<div class="container-fluid">
-<div class="navbar-header">
-<a class="navbar-brand" href="#home">
-        <img class="nav-logo" alt="Brand" src="<%= asset_path 'unicorn.png' %>"><h1>M<sub>R</sub>T</h1>
-        </a>
-        </div>
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" class="scrollto">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#">What I Know</a><sub style="color: #fff;"><em>Under Construction</em></sub>
-                    </li>
-                    
-                    <li>
-                        <a href="#">My Work</a><sub style="color: #fff;"><em>Under Construction</em></sub>
-                    </li>
-                    <li>
-                        <a href="#">My CV</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            </nav>
-        </div><!-- Navbar End -->
 
 <!-- Welcome Jumborton h1 -->
 <div class="container">
@@ -74,7 +13,7 @@
 </div>
 </div>
 </div>
-</section><!-- Home-wrapper Section End -->
+</section><!-- Home-wrapper Section END -->
 
 
 
@@ -83,9 +22,10 @@
 <div class="container">
 <h1>About Me.</h1>	
 <div class="row">
-<div class="col-xs-12 col-sm-12">
-                    <img class="img-circle" src="<%= asset_path 'Prof.jpg' %>" alt="#">
-         
+<div class="col-xs-12 col-md-6">
+                    <img class="img-circle img-responsive" src="<%= asset_path 'Prof.jpg' %>" alt="#">
+</div>  
+<div class="col-xs-12 col-md-6">             
 <h3>My Bio</h3>
 <br>
 <p>Matthew is an Front-End software engineer with a passion for pixelation harmony. With a passion for innovation and creative solutions, Matt is able to creative amazing user experiences. 
@@ -101,38 +41,23 @@ Matthew is a unique coder. Mindful, passionate and obcessed with beautiful deign
 </div>
 </div>
 </div>
-</section><!-- End of About Section -->
+</section><!-- About Section END -->
 
 <section id="contact" class="contact">
 <div class="container-fluid">
 <h1>Contact Me</h1>
 <h2>Say hi..</h2>
-<img class="img-circle" src="<%= asset_path 'contact.png' %>" alt="#">
-<h4>I can always be found at the end of a phone line or email. Busyness === a loss of control. I will very rarely, if ever, turn down a coffee.</h4>
+<img class="img-circle img-responsive" src="<%= asset_path 'contact.png' %>" alt="#">
+<p>I can always be found at the end of a phone line or email. Busyness === a loss of control. I will very rarely, if ever, turn down a coffee.</p>
 
 <p>Please do not hesitate to get in touch :)</p>
 <span>Get in touch!</span>
 </div>	
 
 <div class="container">
-<a><button type="button" class="btn btn-success btn-lg round">Message Me</button></a>
+<a href="raftmatt@gmail.com"><button type="button" class="btn btn-success btn-lg round">Message Me</button></a>
 </div>
 </section>
-
-<div class="container-fluid">
-<div class="social-wrapper">
-<div class="social-inner">
-<a href="https://www.facebook.com/matthew.raft.9"><i class="fa fa-facebook fa-2x"></i></a>
-<a href="https://www.codepen.com/Matthew-Rafty24"><i class="fa fa-codepen fa-2x"></i></a>
-<a href="https://www.github.com/Matthew-Rafty24"><i class="fa fa-github fa-2x"></i></a>
-<a href="https://www.linkedin.com/in/matthew-raft-49b59b46"><i class="fa fa-linkedin fa-2x"></i></a>
-<a href="https://www.twitter.com/MatthewR_Xpand"><i class="fa fa-twitter fa-2x"></i></a>
-<a href="https://www.behance.com/"><i class="fa fa-behance fa-2x"></i></a>
-</div>
-</div>
-</div>
-<footer id="main-footer">
-		<p class="copyright">&copy;2016 Matthew Raft</p>
-	</footer>
+<!-- Contact Section END -->
 </body>
 </html>

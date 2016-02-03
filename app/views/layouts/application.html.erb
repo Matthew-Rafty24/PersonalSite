@@ -2,15 +2,49 @@
 <html>
 <head>
   <title>Matthew Raft - Developer | Designer</title>
+    
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- App Tags -->
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-  
 </head>
+
+
 <body>
-
+<%= render 'layouts/navbar' %>
 <%= yield %>
-
+<!-- Social Links -->
+<div class="container-fluid">
+<div class="social-wrapper">
+<div class="social-inner">
+<a href="https://www.facebook.com/matthew.raft.9"><i class="fa fa-facebook fa-2x"></i></a>
+<a href="https://www.codepen.com/Matthew-Rafty24"><i class="fa fa-codepen fa-2x"></i></a>
+<a href="https://www.github.com/Matthew-Rafty24"><i class="fa fa-github fa-2x"></i></a>
+<a href="https://www.linkedin.com/in/matthew-raft-49b59b46"><i class="fa fa-linkedin fa-2x"></i></a>
+<a href="https://www.twitter.com/MatthewR_Xpand"><i class="fa fa-twitter fa-2x"></i></a>
+<a href="https://www.behance.com/"><i class="fa fa-behance fa-2x"></i></a>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer id="main-footer">
+		<p class="copyright">&copy;2016 Matthew Raft</p>
+	</footer>
+<!-- JS SmoothScroll -->
+<script>
+smoothScroll.init({
+    speed: 1000, 
+    easing: 'easeInOutCubic', 
+});
+</script>
 </body>
 </html>
+
+
