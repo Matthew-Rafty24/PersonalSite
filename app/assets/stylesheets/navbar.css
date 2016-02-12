@@ -1,0 +1,89 @@
+/*Navbar*/
+
+#main-nav {
+	background: transparent;
+	margin: 0 auto;
+	padding-bottom: 50px auto;
+	width: 100%;
+	height: auto;
+	padding-right: 50px;
+	font-weight: 700;
+}
+
+#main-nav li {
+	padding-top: 30px;
+}
+#main-nav h1 {
+	letter-spacing: 0.1em;
+}
+
+#main-nav h1,img {
+	display: inline-block;
+	margin-top: 10px;
+	color: #000
+}
+
+#main-nav img {
+	margin-top: -10px;
+	margin-right: 10px;
+}
+
+.navbar-brand {
+	margin: 0 auto;
+    margin-left: 30px;
+	font-weight: 700;
+}
+
+.navbar-default {
+	background: transparent !important;
+	background-color: transparent !important;
+	border: none !important;	
+}
+
+.navbar-inner {
+    background:transparent;
+}
+.navbar {
+	margin: 0 auto;
+    border-radius: 0 auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: transparent !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000 !important;
+  background-color: transparent;
+}
+
+.navbar-fixed-top {
+    top: 0 auto;
+}
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+#main-nav ul {
+    float: right;
+    margin: 0 20px 0 20px;
+}
+
+#main-nav .container-fluid {
+	padding: 10px auto;
+}
+
+#main-nav .nav-logo {
+    opacity: 1;
+    vertical-align: middle;
+    height: 46px;
+    width: 46px;
+    display: inline-block;
+}
+
+#main-nav li a:hover, li a:focus {
+    background-color: transparent;
+}	
