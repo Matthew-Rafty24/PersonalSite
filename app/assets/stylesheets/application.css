@@ -189,6 +189,7 @@ a:hover {
 }
 
 .contact img {
+	margin: 50px auto;
 	width: 100px;
 	height: 100px;
 	text-align: center !important;

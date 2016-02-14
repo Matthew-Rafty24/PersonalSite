@@ -58,6 +58,10 @@
   background-color: transparent;
 }
 
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent !important;
+}
+
 .navbar-fixed-top {
     top: 0 auto;
 }
