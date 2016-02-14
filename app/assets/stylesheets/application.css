@@ -191,11 +191,9 @@ a:hover {
 .contact img {
 	width: 100px;
 	height: 100px;
+	text-align: center !important;
 }
 
-.img-responsive {
-	float: center;
-}
 
 /*Footer Styles*/
 
