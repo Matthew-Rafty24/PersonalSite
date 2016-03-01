@@ -50,13 +50,14 @@ p {
 h1 {
 	text-align: center;
 	font-weight:700;
-	font-size:2.5em;
+	font-size:3em;
 	margin-bottom:0.2em;
 	padding-bottom: 20px;
 }
 
 h2 {
 	font-size:1.5em;
+	font-weight: 400;
 	margin-bottom:20px;
 	line-height:1.4em;
 	font-weight:600;
@@ -64,6 +65,7 @@ h2 {
 
 h3 {
 	font-size:1em;
+	font-weight: 300;
 	line-height:1.5em;
 	margin-bottom:20px;
 }
@@ -130,6 +132,11 @@ a:hover {
     font-weight: 400;
     opacity: 0;
 }
+.home-wrapper img {
+	position: relative;
+    float: right;
+    top-margin: -20 !important;
+}
 
 
 /*About Me*/
@@ -137,6 +144,7 @@ a:hover {
 .about {
 	padding: 50px auto;
 	overflow: hidden;
+	padding-bottom: 50px;
 }
 
 .about.container {
@@ -145,10 +153,6 @@ a:hover {
 
 .about.container,h3,h4,p {
 	text-align: center;
-}
-
-.about h3 {
-	text-decoration: underline;
 }
 
 .about img {
